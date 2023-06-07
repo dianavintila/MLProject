@@ -1,4 +1,4 @@
-# ACID Android App Collusion Potential Detector
+# Malware collusion detection
 
 This tool is detecting app collusion potential. The tool uses androguard to extract facts about
 app communication and used permissions. Extracted facts and a set of Prolog rules can be used later to detect the collusion
