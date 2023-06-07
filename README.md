@@ -1,6 +1,6 @@
 # ACID Android App Collusion Potential Detector
 
-This tool is a first approximation to detecting app collusion potential. The tool uses androguard to extract facts about
+This tool is detecting app collusion potential. The tool uses androguard to extract facts about
 app communication and used permissions. Extracted facts and a set of Prolog rules can be used later to detect the collusion
 potential between the apps in the analysed set. The tool is split in three components: the fact generator, the Prolog generator and the detection tool (that executed the Prolog program). These programs should be run in sequence.
 
@@ -17,7 +17,6 @@ Additionally, the tool uses the command line SWI-Prolog implementation.
 
 ## Installation
 
-We provide instructions for installation for Ubuntu 16.04 (LTS). Even though these instructions have only been tested for Ubuntu 16.04, they should work on newer versions of Ubuntu too. We assume a fresh install of Ubuntu. If you are using an existing deployment of Ubuntu then you may already have some of the required packages installed.
 
 ### Install packages
 
